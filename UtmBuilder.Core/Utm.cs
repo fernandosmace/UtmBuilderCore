@@ -38,12 +38,4 @@ namespace UtmBuilder.Core
             return $"{Url.Address}?{String.Join("&", segments)}";
         }
     }
-
-    public class teste
-    {
-        public void teste1()
-        {
-            string utm = new Utm(null, null);
-        }
-    }
 }

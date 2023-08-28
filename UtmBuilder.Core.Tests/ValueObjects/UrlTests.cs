@@ -20,7 +20,7 @@ namespace UtmBuilder.Core.Tests.ValueObjects
         [Trait("Category", "URL")]
         public void ShouldNotReturnExceptionWhenUrlIsValid()
         {
-            var exception = Record.Exception(() => new Url(InvalidUrl));
+            var exception = Record.Exception(() => new Url(ValidUrl));
             Assert.Null(exception);
         }
 
